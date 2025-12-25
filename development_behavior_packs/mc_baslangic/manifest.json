@@ -1,0 +1,75 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "baslangic",
+    "description": "Minecraft Bedrock Edition için giris ve türkçe kaynak olması icin rehber niteliğinde bir repo açmak istedim.",
+    "uuid": "75201082-f13c-40f9-b064-01da1aa1a3fd",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      130
+    ]
+  },
+  "modules": [
+    {
+      "description": "Behavior",
+      "version": [
+        1,
+        0,
+        0
+      ],
+      "uuid": "9fa1dc4d-13d9-42fe-9690-1350c5b64921",
+      "type": "data"
+    },
+    {
+      "description": "Script resources",
+      "language": "javascript",
+      "type": "script",
+      "uuid": "dc8bda94-68b6-41b2-82f9-8021e03cdb75",
+      "version": [
+        0,
+        0,
+        1
+      ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "d0e8dd27-8c7b-446e-8510-dc86b60f5c9d",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": [
+        2,
+        4,
+        0
+      ]
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": [
+        2,
+        0,
+        0
+      ]
+    }
+  ],
+  "metadata": {
+    "generated_with": {
+      "mctoolsweb": [
+        "0.15.2"
+      ]
+    }
+  }
+}

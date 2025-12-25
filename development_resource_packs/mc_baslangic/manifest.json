@@ -1,0 +1,47 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "baslangic",
+    "description": "Minecraft Bedrock Edition için giris ve türkçe kaynak olması icin rehber niteliğinde bir repo açmak istedim.",
+    "uuid": "d0e8dd27-8c7b-446e-8510-dc86b60f5c9d",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      130
+    ]
+  },
+  "modules": [
+    {
+      "description": "Add-on Pack Resources",
+      "type": "resources",
+      "uuid": "07072677-ffb7-439f-a367-bc4b04c82fcc",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "75201082-f13c-40f9-b064-01da1aa1a3fd",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "metadata": {
+    "generated_with": {
+      "mctoolsweb": [
+        "0.15.2"
+      ]
+    }
+  }
+}
